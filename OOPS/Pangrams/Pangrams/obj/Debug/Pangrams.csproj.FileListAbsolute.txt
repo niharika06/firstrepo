@@ -1,0 +1,6 @@
+c:\users\niharika\documents\visual studio 2015\Projects\Pangrams\Pangrams\bin\Debug\Pangrams.exe.config
+c:\users\niharika\documents\visual studio 2015\Projects\Pangrams\Pangrams\bin\Debug\Pangrams.exe
+c:\users\niharika\documents\visual studio 2015\Projects\Pangrams\Pangrams\bin\Debug\Pangrams.pdb
+c:\users\niharika\documents\visual studio 2015\Projects\Pangrams\Pangrams\obj\Debug\Pangrams.csprojResolveAssemblyReference.cache
+c:\users\niharika\documents\visual studio 2015\Projects\Pangrams\Pangrams\obj\Debug\Pangrams.exe
+c:\users\niharika\documents\visual studio 2015\Projects\Pangrams\Pangrams\obj\Debug\Pangrams.pdb
