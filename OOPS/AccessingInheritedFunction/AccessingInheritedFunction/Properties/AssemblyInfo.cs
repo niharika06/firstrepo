@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UpdateVala")]
+[assembly: AssemblyTitle("AccessingInheritedFunction")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("rg-adguard")]
-[assembly: AssemblyProduct("UpdateVala")]
+[assembly: AssemblyProduct("AccessingInheritedFunction")]
 [assembly: AssemblyCopyright("Copyright © rg-adguard 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ea443d37-dfde-4ea8-8564-5a166fed6cfb")]
+[assembly: Guid("03160ee4-7f2e-4e25-8dde-71622aeb76e8")]
 
 // Version information for an assembly consists of the following four values:
 //

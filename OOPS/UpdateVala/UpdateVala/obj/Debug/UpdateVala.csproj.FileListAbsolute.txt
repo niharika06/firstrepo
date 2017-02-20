@@ -1,9 +1,0 @@
-c:\users\niharika\documents\visual studio 2015\Projects\UpdateVala\UpdateVala\bin\Debug\UpdateVala.exe.config
-c:\users\niharika\documents\visual studio 2015\Projects\UpdateVala\UpdateVala\obj\Debug\UpdateVala.csprojResolveAssemblyReference.cache
-C:\Users\niharika\Documents\Visual Studio 2015\Projects\UpdateVala\UpdateVala\bin\Debug\UpdateVala.exe
-C:\Users\niharika\Documents\Visual Studio 2015\Projects\UpdateVala\UpdateVala\bin\Debug\UpdateVala.pdb
-C:\Users\niharika\Documents\Visual Studio 2015\Projects\UpdateVala\UpdateVala\obj\Debug\UpdateVala.exe
-C:\Users\niharika\Documents\Visual Studio 2015\Projects\UpdateVala\UpdateVala\obj\Debug\UpdateVala.pdb
-C:\Users\niharika\Desktop\Assignments\OOPS\UpdateVala\UpdateVala\bin\Debug\UpdateVala.exe.config
-C:\Users\niharika\Desktop\Assignments\OOPS\UpdateVala\UpdateVala\obj\Debug\UpdateVala.exe
-C:\Users\niharika\Desktop\Assignments\OOPS\UpdateVala\UpdateVala\obj\Debug\UpdateVala.pdb

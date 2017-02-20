@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UpdateVala
+namespace AccessingInheritedFunction
 {
-   
-    class A
+    class A 
     {
         public int callA = 0;
-  
-        public void func(ref int a)
+
+       public void funcA(ref int a)
         {
             a = a * 2;
             callA++;
@@ -20,10 +19,10 @@ namespace UpdateVala
         }
 
     }
-    class B : A
+    class B 
     {
         public int callB = 0;
-        public new void  func(ref int a)
+       public void funcB(ref int a)
         {
             a = a * 3;
             callB++;
@@ -31,11 +30,11 @@ namespace UpdateVala
             Console.ReadLine();
         }
     }
-    class C : B
+    class C 
     {
         public int callC = 0;
-        
-        public new void func(ref int a)
+
+        public void funcC(ref int a)
         {
             a = a * 5;
             callC++;
@@ -43,19 +42,20 @@ namespace UpdateVala
             Console.ReadLine();
         }
     }
-    class D 
+    class D :C
     {
-         public void update_val(int new_val)
+        public void update_val(int new_val)
         {
             int v = new_val;
-            if (v%2 == 0 && v%3 == 0 && v%5 == 0)
+            if (v % 2 == 0 && v % 3 == 0 && v % 5 == 0)
             {
-                A a = new A();
-                a.func(ref v);
-                B b = new B();
-                b.func(ref v);
+
+              
                 C c = new C();
-                c.func(ref v);
+                c.funcA(ref v);
+                c.funcB(ref v);
+                c.funcC(ref v);
+
             }
             else
             {
@@ -63,16 +63,16 @@ namespace UpdateVala
             }
         }
     }
-        class Final {
-           public static void Main(string[] args)
-            {
-                D d = new D();
-                
-                Console.WriteLine("Enter the value of new_val");
-                int val = int.Parse(Console.ReadLine());
-                d.update_val(val);
-                Console.ReadKey();
-            }
-        }
-    } 
+    class Final
+    {
+        public static void Main(string[] args)
+        {
+            D d = new D();
 
+            Console.WriteLine("Enter the value of new_val");
+            int val = int.Parse(Console.ReadLine());
+            d.update_val(val);
+            Console.ReadKey();
+        }
+    }
+}
