@@ -10,9 +10,9 @@ namespace AccessingInheritedFunction
     {
         public int callA = 0;
 
-       public void funcA(ref int a)
+       public void funcA(ref int value)
         {
-            a = a * 2;
+            value = value * 2;
             callA++;
             Console.WriteLine("A's function called " + callA + " times");
             Console.ReadLine();
@@ -22,9 +22,9 @@ namespace AccessingInheritedFunction
     class Parent : GrandParent
     {
         public int callB = 0;
-       public void funcB(ref int a)
+       public void funcB(ref int value)
         {
-            a = a * 3;
+            value = value * 3;
             callB++;
             Console.WriteLine("B's function called " + callB + " times");
             Console.ReadLine();
@@ -34,9 +34,9 @@ namespace AccessingInheritedFunction
     {
         public int callC = 0;
 
-        public void funcC(ref int a)
+        public void funcC(ref int value)
         {
-            a = a * 5;
+            value = value * 5;
             callC++;
             Console.WriteLine("C's function called " + callC + " times");
             Console.ReadLine();
@@ -44,17 +44,17 @@ namespace AccessingInheritedFunction
     }
     class GrandChild :Child
     {
-        public void update_val(int new_val)
+        public void update_val(int new_value)
         {
-            int v = new_val;
-            if (v % 2 == 0 && v % 3 == 0 && v % 5 == 0)
+            int check = new_value;
+            if (check % 2 == 0 && check % 3 == 0 && check % 5 == 0)
             {
 
 
                 Child c = new Child();
-                c.funcA(ref v);
-                c.funcB(ref v);
-                c.funcC(ref v);
+                c.funcA(ref check);
+                c.funcB(ref check);
+                c.funcC(ref check);
 
             }
             else
@@ -70,8 +70,8 @@ namespace AccessingInheritedFunction
             GrandChild d = new GrandChild();
 
             Console.WriteLine("Enter the value of new_val");
-            int val = int.Parse(Console.ReadLine());
-            d.update_val(val);
+            int userValue = int.Parse(Console.ReadLine());
+            d.update_val(userValue);
             Console.ReadKey();
         }
     }
