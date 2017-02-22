@@ -8,8 +8,8 @@ using FinalOrm;
 namespace FinalOrm.Migrations
 {
     [DbContext(typeof(Model))]
-    [Migration("20170221103400_RoshniTest")]
-    partial class RoshniTest
+    [Migration("20170222085509_NiharikaTesting")]
+    partial class NiharikaTesting
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

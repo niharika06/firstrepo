@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FinalOrm.Migrations
 {
-    public partial class IsItFine : Migration
+    public partial class NiharikaTesting : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

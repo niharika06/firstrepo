@@ -1,5 +1,5 @@
---temp-output:D:\Niharika\Project\FinalOrm\src\FinalOrm\obj\Debug\netcoreapp1.1\
---out:D:\Niharika\Project\FinalOrm\src\FinalOrm\bin\Debug\netcoreapp1.1\FinalOrm.dll
+--temp-output:D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\obj\Debug\netcoreapp1.1\
+--out:D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\bin\Debug\netcoreapp1.1\FinalOrm.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -114,13 +114,11 @@
 --reference:C:\Users\niharika\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\niharika\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\niharika\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Model.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Product.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Program.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Updates.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Migrations\20170221103653_RoshniTest.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Migrations\20170221103653_RoshniTest.Designer.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Migrations\20170221104241_Upload.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Migrations\20170221104241_Upload.Designer.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Migrations\ModelModelSnapshot.cs
-D:\Niharika\Project\FinalOrm\src\FinalOrm\Properties\AssemblyInfo.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Model.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Product.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Program.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Updates.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Migrations\20170222085509_NiharikaTesting.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Migrations\20170222085509_NiharikaTesting.Designer.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Migrations\ModelModelSnapshot.cs
+D:\Niharika\New folder\firstrepo\ORM\FinalOrm\src\FinalOrm\Properties\AssemblyInfo.cs
