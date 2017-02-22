@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessingInheritedFunction
 {
-    class A 
+    class GrandParent 
     {
         public int callA = 0;
 
@@ -19,7 +19,7 @@ namespace AccessingInheritedFunction
         }
 
     }
-    class B 
+    class Parent : GrandParent
     {
         public int callB = 0;
        public void funcB(ref int a)
@@ -30,7 +30,7 @@ namespace AccessingInheritedFunction
             Console.ReadLine();
         }
     }
-    class C 
+    class Child : Parent
     {
         public int callC = 0;
 
@@ -42,7 +42,7 @@ namespace AccessingInheritedFunction
             Console.ReadLine();
         }
     }
-    class D :C
+    class GrandChild :Child
     {
         public void update_val(int new_val)
         {
@@ -50,8 +50,8 @@ namespace AccessingInheritedFunction
             if (v % 2 == 0 && v % 3 == 0 && v % 5 == 0)
             {
 
-              
-                C c = new C();
+
+                Child c = new Child();
                 c.funcA(ref v);
                 c.funcB(ref v);
                 c.funcC(ref v);
@@ -67,7 +67,7 @@ namespace AccessingInheritedFunction
     {
         public static void Main(string[] args)
         {
-            D d = new D();
+            GrandChild d = new GrandChild();
 
             Console.WriteLine("Enter the value of new_val");
             int val = int.Parse(Console.ReadLine());
