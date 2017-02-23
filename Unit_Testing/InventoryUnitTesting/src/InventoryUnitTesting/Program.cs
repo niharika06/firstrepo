@@ -17,6 +17,11 @@ namespace InventoryUnitTesting
             throw new NotImplementedException();
         }
 
+        internal object AddInventory(Inventory inventory)
+        {
+            throw new NotImplementedException();
+        }
+
 
         /// <summary>
         /// when cart is checkout, It will check product is exist in inventory or not.
@@ -32,11 +37,9 @@ namespace InventoryUnitTesting
         /// </summary>
         /// <param name="inventory"></param>
         /// <returns></returns>
-        public List<Inventory> AddInventory(Inventory inventory)
-        {
-            throw new NotImplementedException();
-        }
+        
 
+        
         /// <summary>
         /// product details will be updated in the inventory
         /// </summary>
